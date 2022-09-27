@@ -4,7 +4,24 @@ header {
   align-items: center;
 }
 
+main {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+}
+
 .book-container {
   display: flex;
   justify-content: center;
+  gap: 5px;
+}
+
+.book-container p {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 9px;
+}
+
+.new-btn {
+  margin-top: 20vh;
 }
